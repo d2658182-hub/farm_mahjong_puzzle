@@ -178,7 +178,7 @@ console.log("createAFGScript " + testAdsOn)
     imported.setAttribute('data-ad-channel', ChannelId);
     imported.setAttribute('data-ad-frequency-hint', adFrequency);
     if(testAdsOn == true){imported.setAttribute('data-adbreak-test', "on");}
-    imported.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+    
     imported.setAttribute("type", "text/javascript");
     imported.async = true;
     document.head.appendChild(imported);
